@@ -1,5 +1,5 @@
-<style>
-/*  Material Design color palette
+<style id="md-colors">
+/*  Material Design Color Palette
  *  - - - - - - - - - - - - - - - - - -
  *
  *  Note:
@@ -10,6 +10,7 @@
  *  Variables with numbers prefixed by 'a' are accent colors
  */
 
+html {
 /* Red */
 --red: 244, 67, 54;
 --red-50: 255, 235, 238;
@@ -94,7 +95,7 @@
 --indigo-a200: 83, 109, 254;
 --indigo-a400: 61, 90, 254;
 --indigo-a700: 41, 70, 254;
-
+  
 /* Blue */
 --blue: 33, 150, 243;
 --blue-50: 227, 242, 253;
@@ -324,7 +325,7 @@
 /* White / Black */
 --white: 255, 255, 255;
 --black: 0, 0, 0;
-
+}
 /* Color Variable For Use With Fonts*/
 
 /* Red */
