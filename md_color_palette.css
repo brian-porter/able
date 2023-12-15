@@ -1,4 +1,3 @@
-<style id="md-colors">
 /*  Material Design Color Palette
  *  - - - - - - - - - - - - - - - - - -
  *
@@ -959,4 +958,3 @@ html {
 /* White / Black */
 [bg-clr="white"] {background: rgba(var(--white),1);}
 [bg-clr="black"] {background: rgba(var(--black),1);}
-</style>
