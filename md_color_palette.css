@@ -324,7 +324,7 @@ html {
 /* White / Black */
 --white: 255, 255, 255;
 --black: 0, 0, 0;
-}
+
 /* Color Variable For Use With Fonts*/
 
 /* Red */
@@ -958,3 +958,4 @@ html {
 /* White / Black */
 [bg-clr="white"] {background: rgba(var(--white),1);}
 [bg-clr="black"] {background: rgba(var(--black),1);}
+}
