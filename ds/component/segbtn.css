@@ -42,8 +42,8 @@
   --seg-clr-light: rgba(var(--n200), 1);
 }
 [segbtn-clr="n"] {
-  --seg-bdr: rgba(var(--n500), 1);
-  --seg-clr: rgba(var(--n500), 1);
+  --seg-bdr: rgba(var(--n700), 1);
+  --seg-clr: rgba(var(--n700), 1);
   --seg-clr-light: rgba(var(--n200), 1);
 }
 [segbtn-clr="p"] {
