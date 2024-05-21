@@ -33,7 +33,7 @@
 
 /* Utilities */
 /* Material Design Color Palette */
-@import url("https://cdn.jsdelivr.net/gh/brian-porter/able-code/md_color_palette.css");
+@import url("style/color-palette-md.css");
 
 /* Splide JS */
 @import url("https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.2/dist/css/splide-core.min.css");
