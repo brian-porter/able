@@ -1,0 +1,53 @@
+:root {
+  --segbtn-bg: rgba(var(--n000), 1);
+}
+.a-segbtn-wrap {
+  background: var(--a-segbtn-bg);
+  border: 1px solid var(--seg-bdr);
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 36px;
+  overflow: hidden;
+  width: 100%;
+}
+.a-segbtn-wrap a {
+  color: var(--seg-clr);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s color, 0.3s background, 0.3s border-color;
+  -webkit-tap-highlight-color: transparent;
+}
+.a-segbtn-wrap a.active {
+  background: var(--seg-clr);
+  color: var(--segbtn-bg);
+}
+.a-segbtn-wrap a:not(:first-child) {
+  border-left: 1px solid currentColor;
+}
+
+.a-segbtn-wrap-alt a:not(:first-child) {
+  border: 0;
+}
+.a-segbtn-wrap-alt a.active {
+  background: var(--seg-clr-light);
+  color: var(--seg-clr);
+  font-weight: bold;
+}
+
+.a-seg-grey {
+  --seg-clr: rgba(var(--n700), 1);
+  --seg-clr-light: rgba(var(--n200), 1);
+}
+[segbtn-clr="n"] {
+  --seg-bdr: rgba(var(--n500), 1);
+  --seg-clr: rgba(var(--n500), 1);
+  --seg-clr-light: rgba(var(--n200), 1);
+}
+[segbtn-clr="p"] {
+  --seg-bdr: rgba(var(--p500), 1);
+  --seg-clr: rgba(var(--p500), 1);
+  --seg-clr-light: rgba(var(--p200), 1);
+}

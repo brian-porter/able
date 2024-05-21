@@ -1,0 +1,65 @@
+/* Tag Sizes */
+[tag-size="l"] {
+  width: 24px;
+  height: 24px;
+}
+
+[tag-size="m"] {
+  width: 16px;
+  height: 16px;
+}
+
+[tag-size="s"] {
+  width: 8px;
+  height: 8px;
+}
+
+/* Tag Color */
+[tag-clr="d"] {
+  background: rgba(var(--fd500), 1);
+}
+
+[tag-clr="w"] {
+  background: rgba(var(--fw500), 1);
+}
+
+[tag-clr="s"] {
+  background: rgba(var(--fs500), 1);
+}
+
+[tag-clr="p"] {
+  background: rgba(var(--p500), 1);
+}
+
+[tag-clr="n"] {
+  background: rgba(var(--n700), 1);
+}
+
+/* Tag Location */
+[tag-loc="tl"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0px 0px 8px 0px;
+}
+
+[tag-loc="tr"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0px 0px 0px 8px;
+}
+
+[tag-loc="bl"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0px 8px 0px 0px;
+}
+
+[tag-loc="br"] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 8px 0px 0px 0px;
+}

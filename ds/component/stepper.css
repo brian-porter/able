@@ -1,0 +1,23 @@
+/* Input Stepper */
+[value-clr="w"] .inpstep-value {
+  color: rgba(var(--n000), 1);
+}
+[value-clr="n"] .inpstep-value {
+  color: rgba(var(--n500), 1);
+}
+[value-clr="d"] .inpstep-value {
+  color: rgba(var(--n900), 1);
+}
+
+[step-ori="v"] {
+  flex-direction: column;
+  width: 36px;
+}
+[step-ori="h"] {
+  flex-direction: row-reverse;
+  width: 108px;
+}
+/* To fix Input Stepper value color */
+.inpstep-value {
+  color: rgba(var(--fd500), 1);
+}

@@ -1,0 +1,184 @@
+/* Btn Size */
+[btn-size="in"] {
+  font-size: inherit;
+}
+
+[btn-size="xs"] {
+  height: 24px;
+  padding: 8px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+[btn-size="s"] {
+  height: 32px;
+  padding: 8px 8px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+[btn-size="m"] {
+  height: 36px;
+  padding: 8px 8px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+[btn-size="l"] {
+  height: 48px;
+  padding: 8px 14px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+[btn-size="d"] {
+  height: auto;
+  padding: 6px 8px 6px 8px;
+  border-radius: 6px;
+}
+
+/**** Btn Style & Type ****/
+/* Btn Primary */
+[btn-style="pf"] {
+  background: rgba(var(--p500), 1);
+}
+[btn-style="pf"]:disabled {
+  background: rgba(var(--p200), 1);
+  color: rgba(var(--p100), 1);
+  cursor: not-allowed;
+}
+
+[btn-style="pl"] {
+  background: rgba(var(--n000), 0.5);
+  border-width: 1px;
+  border-color: rgba(var(--p500), 1);
+  color: rgba(var(--p500), 1);
+}
+[btn-style="pl"]:disabled {
+  border-color: rgba(var(--p100), 1);
+  color: rgba(var(--p200), 1);
+  cursor: not-allowed;
+}
+
+[btn-style="pt"] {
+  background: rgba(var(--t000), 0);
+  color: rgba(var(--p500), 1);
+}
+[btn-style="pt"]:disabled {
+  color: rgba(var(--p200), 1);
+  cursor: not-allowed;
+}
+
+/* Btn Neutral */
+[btn-style="nf"] {
+  background: rgba(var(--n500), 1);
+}
+[btn-style="nf"]:disabled {
+  background: rgba(var(--n200), 1);
+  color: rgba(var(--n100), 1);
+  cursor: not-allowed;
+}
+
+[btn-style="nl"] {
+  background: rgba(var(--t000), 0);
+  border-width: 1px;
+  border-color: rgba(var(--n300), 1);
+  color: rgba(var(--n700), 1);
+}
+[btn-style="nl"]:disabled {
+  border-color: rgba(var(--n100), 1);
+  color: rgba(var(--n200), 1);
+  cursor: not-allowed;
+}
+
+[btn-style="nt"] {
+  background: rgba(var(--t000), 0);
+  color: rgba(var(--n700), 1);
+}
+[btn-style="nt"]:disabled {
+  color: rgba(var(--n200), 1);
+  cursor: not-allowed;
+}
+
+/* btn focus */
+[btn-style="ff"] {
+  background: rgba(var(--f500), 1);
+}
+
+[btn-style="fl"] {
+  background: rgba(var(--t000), 0);
+  border-width: 1px;
+  border-color: rgba(var(--f500), 1);
+  color: rgba(var(--f500), 1);
+}
+
+[btn-style="ft"] {
+  background: rgba(var(--t000), 0);
+  color: rgba(var(--f500), 1);
+}
+
+/* Btn Danger */
+[btn-style="df"] {
+  background: rgba(var(--fd500), 1);
+}
+
+[btn-style="dl"] {
+  background: rgba(var(--t000), 0);
+  border-width: 1px;
+  border-color: rgba(var(--fd500), 1);
+  color: rgba(var(--fd500), 1);
+}
+
+[btn-style="dt"] {
+  background: rgba(var(--t000), 0);
+  color: rgba(var(--fd500), 1);
+}
+
+/* Btn Warn */
+[btn-style="wf"] {
+  background: rgba(var(--fw500), 1);
+}
+
+[btn-style="wl"] {
+  background: rgba(var(--t000), 0);
+  border-width: 1px;
+  border-color: rgba(var(--fw500), 1);
+  color: rgba(var(--fw500), 1);
+}
+
+[btn-style="wt"] {
+  background: rgba(var(--t000), 0);
+  color: rgba(var(--fw500), 1);
+}
+/* Button Disabled */
+[btn-style="pf"]:disabled {
+  background: rgba(var(--p200), 1);
+  color: rgba(var(--n100), 1);
+}
+
+/* Button Label Icon Location */
+[icn-loc="left"] {
+  flex-direction: row-reverse;
+}
+[icn-loc="top"] {
+  flex-direction: column-reverse;
+  grid-row-gap: 0px;
+  padding-top: 4px;
+}
+[icn-loc="bottom"] {
+  flex-direction: column;
+  grid-row-gap: 0px;
+  padding-bottom: 4px;
+}
+
+/* Btn Panel Orientation */
+[btnpan-ori="v"] {
+  flex-direction: column;
+}
+
+[btnpan-ori="h"] {
+  flex-direction: row;
+}
+[btnpan-ori="h"] a {
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+/* ListItem */
+[li-titlesize="r2"] {
+  font-size: var(--r2);
+}
+[li-titlesize="r3"] {
+  font-size: var(--r3);
+}
+[li-titlesize="r4"] {
+  font-size: var(--r4);
+}
+[li-subtxtsize="r2"] {
+  font-size: var(--r2);
+}
+[li-subtxtsize="r3"] {
+  font-size: var(--r3);
+}
+[li-subtxtsize="r4"] {
+  font-size: var(--r4);
+}
+
+/* ListItem: Bottom Div */
+[btm-brdr="y"] {
+  border-bottom: 1px solid rgba(var(--n200), 1);
+}
+[btm-brdr="in"] {
+  border-bottom: inherit;
+}
+
+/* Alignment of what??? might be for btn-search-btn */
+[cell-align="l"] {
+  justify-content: flex-start;
+}
+[cell-align="c"] {
+  justify-content: center;
+}
+[cell-align="r"] {
+  justify-content: flex-end;
+}

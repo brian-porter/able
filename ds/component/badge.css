@@ -1,0 +1,50 @@
+/* Badge Sizes */
+[bdg-size="xl"] {
+    width: 24px;
+    height: 24px;
+  }
+  [bdg-size="xl"] .label .icn {
+    font-size: var(--r4);
+  }
+  
+  [bdg-size="l"] {
+    width: 24px;
+    height: 24px;
+  }
+  [bdg-size="l"] .label .icn {
+    font-size: var(--r4);
+  }
+  
+  [bdg-size="m"] {
+    width: 16px;
+    height: 16px;
+  }
+  [bdg-size="m"] .icn {
+    font-size: var(--r4);
+  }
+  
+  [bdg-size="s"] {
+    width: 6px;
+    height: 6px;
+  }
+  
+  /* Badge Color */
+  [bdg-clr="d"] {
+    background: rgba(var(--fd500), 1);
+  }
+  
+  [bdg-clr="w"] {
+    background: rgba(var(--fw500), 1);
+  }
+  
+  [bdg-clr="s"] {
+    background: rgba(var(--fs500), 1);
+  }
+  
+  [bdg-clr="p"] {
+    background: rgba(var(--p500), 1);
+  }
+  
+  [bdg-clr="n"] {
+    background: rgba(var(--n700), 1);
+  }

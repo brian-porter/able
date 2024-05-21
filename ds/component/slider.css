@@ -1,0 +1,67 @@
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 16px;
+  /*  overflow: hidden;  remove this line*/
+
+  /* New additions */
+  height: 8px;
+  background: rgba(var(--n200), 1);
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  height: 16px;
+  width: 16px;
+  background-color: rgba(var(--p500), 1);
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px rgba(var(--p500), 1); remove this line */
+  transition: 0.2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  background-color: rgba(var(--p500), 1);
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px rgba(var(--p500), 1); remove this line */
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(var(--p500), 0.1);
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(var(--p500), 0.2);
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(var(--p500), 0.2);
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type="range"]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(var(--p500), 0.1);
+}
+input[type="range"]:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(var(--p500), 0.2);
+}
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(var(--p500), 0.2);
+}

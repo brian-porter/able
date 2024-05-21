@@ -1,0 +1,24 @@
+[tt-style="info"] .tooltip-body {
+  background: rgba(var(--f700), 1);
+}
+[tt-style="info"] .arrow {
+  border-top-color: rgba(var(--f700), 1);
+}
+[tt-style="success"] .tooltip-body {
+  background: rgba(var(--fs700), 1);
+}
+[tt-style="success"] .arrow {
+  border-top-color: rgba(var(--fs700), 1);
+}
+[tt-style="error"] .tooltip-body {
+  background: rgba(var(--fd700), 1);
+}
+[tt-style="error"] .arrow {
+  border-top-color: rgba(var(--fd700), 1);
+}
+[tt-style="warn"] .tooltip-body {
+  background: rgba(var(--fw700), 1);
+}
+[tt-style="warn"] .arrow {
+  border-top-color: rgba(var(--fw700), 1);
+}

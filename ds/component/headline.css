@@ -1,0 +1,55 @@
+/* Headline Sizes */
+
+[hl-size="2xl"] .headline {
+  font-size: var(--h1);
+}
+
+[hl-size="2xl"] .subtxt {
+  font-size: var(--r2);
+  margin-top: -4px;
+}
+
+[hl-size="xl"] .headline {
+  font-size: var(--h2);
+}
+
+[hl-size="xl"] .subtxt {
+  font-size: var(--r2);
+  margin-top: -4px;
+}
+
+[hl-size="l"] .headline {
+  font-size: var(--h3);
+}
+
+[hl-size="l"] .subtxt {
+  font-size: var(--r3);
+  margin-top: -4px;
+}
+
+[hl-size="m"] .headline {
+  font-size: var(--h4);
+}
+
+[hl-size="m"] .subtxt {
+  font-size: var(--r3);
+  margin-top: -4px;
+}
+
+[hl-size="s"] .headline {
+  font-size: var(--h5);
+}
+
+[hl-size="s"] .subtxt {
+  font-size: var(--r3);
+  margin-top: -4px;
+}
+
+[hl-size="xs"] .headline {
+  font-size: var(--r1);
+}
+
+[hl-size="xs"] .subtxt {
+  font-size: var(--r4);
+  margin-top: -4px;
+}

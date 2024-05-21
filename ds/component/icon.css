@@ -1,0 +1,58 @@
+/* Icon Size */
+[icn-size="xxs"] {
+  font-size: 8px;
+  line-height: 1;
+}
+
+[icn-size="xs"] {
+  font-size: 12px;
+  line-height: 1;
+}
+
+[icn-size="s"] {
+  font-size: 16px;
+  line-height: 1;
+}
+
+[icn-size="sm"] {
+  font-size: 20px;
+  line-height: 1;
+}
+
+[icn-size="m"] {
+  font-size: 24px;
+  line-height: 1;
+}
+
+[icn-size="ml"] {
+  font-size: 32px;
+  line-height: 1;
+}
+
+[icn-size="l"] {
+  font-size: 40px;
+  line-height: 1;
+}
+
+[icn-size="xl"] {
+  font-size: 48px;
+  line-height: 1;
+}
+
+[icn-size="2xl"] {
+  font-size: 64px;
+  line-height: 1;
+}
+
+/* Label Icon Location */
+[icn-loc="l"] {
+  flex-direction: row;
+}
+[icn-loc="r"] {
+  flex-direction: row-reverse;
+}
+[icn-loc="t"] {
+  flex-direction: column;
+  grid-row-gap: 0px;
+  padding-top: 4px;
+}

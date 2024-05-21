@@ -1,0 +1,468 @@
+<!-- *************************** -->
+<!-- **.    COLOR STYLES      .**-->
+<!-- *************************** -->
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lumosframework/lumos@v1.0.5/color.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brian-porter/able-code/md_color_palette.css"/>
+<style id="lumos-colors">
+/* COLOR STYLES */
+
+/**%#**/
+/* btn and link mode transitions */
+[btn-mode], [class*="bm0"],
+[link-mode], [class*="lm0"] {
+  transition-property: background-color, color, border-color, box-shadow;
+  transition-duration: 200ms;
+}
+/* applies default border width to cards, elements, and buttons */
+[card-mode]:not([card-mode=""]),
+[class*="cm0"],
+[element-mode]:not([element-mode=""]),
+[class*="em0"],
+[btn-mode]:not([btn-mode=""]),
+[class*="bm0"] {
+  --border-width: var(--bw1);
+}
+/**#%**/
+
+/* global swatches */
+html {
+  /* DS Neutrals */
+  --n000: 255, 255, 255;
+  --n100: 240, 240, 240;
+  --n200: 229, 229, 229;
+  --n300: 196, 196, 196;
+  --n500: 154, 154, 154;
+  --n700: 109, 109, 109;
+  --n900: 80, 80, 80;
+  --n999: 17, 17, 17;
+  /* DS Primary */
+  --p100: 232, 241, 254;
+  --p200: 163, 200, 249;
+  --p300: 94, 158, 245;
+  --p500: 25, 117, 240;
+  --p700: 18, 82, 168;
+  --p900: 7, 35, 72;
+  /* DS Secondary */
+  --s500: 190, 239, 16;
+  /* DS Focus: Default, Danger, Warn, Success */
+  --f100: 191, 229, 239;
+  --f500: 0, 171, 210;
+  --f700: 0, 120, 147;
+  --fd100: 255, 236, 237;
+  --fd500: 237, 28, 36;
+  --fd700: 132, 16, 29;
+  --fw100: 255, 238, 221;
+  --fw500: 255, 128, 0;
+  --fw700: 143, 79, 14;
+  --fy500: 252, 202, 3;
+  --fs100: 220, 255, 220;
+  --fs500: 0, 180, 0;
+  --fs700: 18, 123, 18;
+  /* DS Fades & Transparency */
+  --t000: 255, 255, 255;
+
+  /* lumos stuff */
+  --light-1: 255, 255, 255;
+  --light-2: 244, 244, 241;
+  --dark-2: 53, 53, 49;
+  --alt-selection-bg: rgba(var(--p500), 1);
+  --alt-selection-fc: rgba(var(--n100), 1);
+}
+/* DS Color Variables */
+[clr="n000"] {
+  color: rgba(var(--n000), 1);
+}
+[clr="n100"] {
+  color: rgba(var(--n100), 1);
+}
+[clr="n200"] {
+  color: rgba(var(--n200), 1);
+}
+[clr="n300"] {
+  color: rgba(var(--n300), 1);
+}
+[clr="n500"] {
+  color: rgba(var(--n500), 1);
+}
+[clr="n700"] {
+  color: rgba(var(--n700), 1);
+}
+[clr="n900"] {
+  color: rgba(var(--n900), 1);
+}
+[clr="n999"] {
+  color: rgba(var(--n999), 1);
+}
+
+[clr="p100"] {
+  color: rgba(var(--p100), 1);
+}
+[clr="p200"] {
+  color: rgba(var(--p200), 1);
+}
+[clr="p300"] {
+  color: rgba(var(--p300), 1);
+}
+[clr="p500"] {
+  color: rgba(var(--p500), 1);
+}
+[clr="p700"] {
+  color: rgba(var(--p700), 1);
+}
+[clr="p900"] {
+  color: rgba(var(--p900), 1);
+}
+[clr="s500"] {
+  color: rgba(var(--s500), 1);
+}
+
+[clr="f500"] {
+  color: rgba(var(--f500), 1);
+}
+[clr="fd500"] {
+  color: rgba(var(--fd500), 1);
+}
+[clr="fw500"] {
+  color: rgba(var(--fw500), 1);
+}
+[clr="fy500"] {
+  color: rgba(var(--fy500), 1);
+}
+[clr="fs500"] {
+  color: rgba(var(--fs500), 1);
+}
+[clr="t000"] {
+  color: rgba(var(--t000), 0);
+}
+[clr="in"] {
+  color: inherit;
+}
+/* Background Color */
+[bg-clr="n000"] {
+  background: rgba(var(--n000), 1);
+}
+[bg-clr="n100"] {
+  background: rgba(var(--n100), 1);
+}
+[bg-clr="n200"] {
+  background: rgba(var(--n200), 1);
+}
+[bg-clr="n300"] {
+  background: rgba(var(--n300), 1);
+}
+[bg-clr="n500"] {
+  background: rgba(var(--n500), 1);
+}
+[bg-clr="n700"] {
+  background: rgba(var(--n700), 1);
+}
+[bg-clr="n900"] {
+  background: rgba(var(--n900), 1);
+}
+[bg-clr="n999"] {
+  background: rgba(var(--n999), 1);
+}
+
+[bg-clr="p100"] {
+  background: rgba(var(--p100), 1);
+}
+[bg-clr="p200"] {
+  background: rgba(var(--p200), 1);
+}
+[bg-clr="p300"] {
+  background: rgba(var(--p300), 1);
+}
+[bg-clr="p500"] {
+  background: rgba(var(--p500), 1);
+}
+[bg-clr="p700"] {
+  background: rgba(var(--p700), 1);
+}
+[bg-clr="p900"] {
+  background: rgba(var(--p900), 1);
+}
+[bg-clr="s500"] {
+  background: rgba(var(--s500), 1);
+}
+
+[bg-clr="f100"] {
+  background: rgba(var(--f100), 1);
+}
+[bg-clr="f500"] {
+  background: rgba(var(--f500), 1);
+}
+[bg-clr="f700"] {
+  background: rgba(var(--f700), 1);
+}
+[bg-clr="fd100"] {
+  background: rgba(var(--fd100), 1);
+}
+[bg-clr="fd500"] {
+  background: rgba(var(--fd500), 1);
+}
+[bg-clr="fd700"] {
+  background: rgba(var(--fd700), 1);
+}
+[bg-clr="fw100"] {
+  background: rgba(var(--fw100), 1);
+}
+[bg-clr="fw500"] {
+  background: rgba(var(--fw500), 1);
+}
+[bg-clr="fw700"] {
+  background: rgba(var(--fw700), 1);
+}
+[bg-clr="fy100"] {
+  background: rgba(var(--fy100), 1);
+}
+[bg-clr="fy500"] {
+  background: rgba(var(--fy500), 1);
+}
+[bg-clr="fy700"] {
+  background: rgba(var(--fy700), 1);
+}
+[bg-clr="fs100"] {
+  background: rgba(var(--fs100), 1);
+}
+[bg-clr="fs500"] {
+  background: rgba(var(--fs500), 1);
+}
+[bg-clr="fs700"] {
+  background: rgba(var(--fs700), 1);
+}
+[bg-clr="t000"] {
+  background: rgba(var(--t000), 0);
+}
+[bg-clr="fg10"] {
+  background-color: rgba(var(--n000), 0.1);
+  -webkit-backdrop-filter: blur(8px); /* Fixes blur for Safari*/
+  backdrop-filter: blur(8px); /* Activates blur*/
+}
+[bg-clr="fg20"] {
+  background-color: rgba(var(--n000), 0.2);
+  -webkit-backdrop-filter: blur(8px); /* Fixes blur for Safari*/
+  backdrop-filter: blur(8px); /* Activates blur*/
+}
+[bg-clr="fg30"] {
+  background-color: rgba(var(--n000), 0.3);
+  -webkit-backdrop-filter: blur(8px); /* Fixes blur for Safari*/
+  backdrop-filter: blur(8px); /* Activates blur*/
+}
+[bg-clr="fg40"] {
+  background-color: rgba(var(--n000), 0.4);
+  -webkit-backdrop-filter: blur(8px); /* Fixes blur for Safari*/
+  backdrop-filter: blur(8px); /* Activates blur*/
+}
+[bg-clr="fg50"] {
+  background-color: rgba(var(--n000), 0.5);
+  -webkit-backdrop-filter: blur(8px); /* Fixes blur for Safari*/
+  backdrop-filter: blur(8px); /* Activates blur*/
+}
+[bg-clr="fg60"] {
+  background-color: rgba(var(--n000), 0.6);
+  -webkit-backdrop-filter: blur(8px); /* Fixes blur for Safari*/
+  backdrop-filter: blur(8px); /* Activates blur*/
+}
+[bg-clr="fg70"] {
+  background-color: rgba(var(--n000), 0.7);
+  -webkit-backdrop-filter: blur(8px); /* Fixes blur for Safari*/
+  backdrop-filter: blur(8px); /* Activates blur*/
+}
+[bg-clr="in"] {
+  background: inherit;
+}
+
+/* section mode 1 (light mode) */
+body, [section-mode="1"], [class*="sm0-1"],
+/* styles card mode 2 when inside section mode 2 */
+:is([section-mode="2"], [class*="sm0-2"]) :is([card-mode="2"], [class*="cm0-2"]) {
+  /* section mode 1 */
+  --m-bg1: rgba(var(--n000), 1); /* Changed for body default */
+  --m-fc1: rgba(var(--n999), 1);
+  --m-fc2: rgba(var(--n900), 0.7);
+  --m-bc1: rgba(var(--n100), 0.2);
+  --m-sc1: rgba(var(--n100), 1);
+  /* element mode 1 (tag) */
+  --em1-bg1: rgba(var(--p500), 1);
+  --em1-fc1: rgba(var(--n100), 1);
+  --em1-bc1: rgba(var(--n100), 0.2);
+  /* btn mode 1 (primary) */
+  --bm1-bg1: rgba(var(--p500), 1);
+  --bm1-bg1b: rgba(var(--p500), 1);
+  --bm1-fc1: rgba(var(--n100), 1);
+  --bm1-bg1-hover: rgba(var(--n100), 1);
+  --bm1-bg1b-hover: rgba(var(--n100), 1);
+  --bm1-fc1-hover: rgba(var(--light-2), 1);
+  /* btn mode 2 (secondary) */
+  --bm2-bg1b: rgba(var(--n100), 0.2);
+  --bm2-fc1: rgba(var(--n100), 1);
+  --bm2-bg1-hover: rgba(var(--n100), 1);
+  --bm2-bg1b-hover: rgba(var(--n100), 1);
+  --bm2-fc1-hover: rgba(var(--light-2), 1);
+  /* link mode 1 (tab link) */
+  --lm1-fc1: rgba(var(--n100), 0.5);
+  --lm1-fc1-hover: rgba(var(--n100), 1);
+  --lm1-bg1b-active: rgba(var(--n100), 1);
+  --lm1-fc1-active: rgba(var(--n100), 1);
+}
+
+/* section mode 2 (dark mode) */
+[section-mode="2"], [class*="sm0-2"],
+/* card mode 2 */
+[card-mode="2"], [class*="cm0-2"],
+/* styles card mode 2 when inside section mode 1 */
+:is([section-mode="1"], [class*="sm0-1"]) :is([card-mode="2"], [class*="cm0-2"]) {
+  /* section mode 2 */
+  --m-bg1: rgba(var(--n000), 1);
+  --m-fc1: rgba(var(--light-2), 1);
+  --m-fc2: rgba(var(--light-2), 0.7);
+  --m-bc1: rgba(var(--light-2), 0.2);
+  --m-sc1: rgba(var(--p500), 1);
+  /* element mode 1 (tag) */
+  --em1-bg1: rgba(var(--p500), 0.1);
+  --em1-fc1: rgba(var(--p500), 1);
+  --em1-bc1: rgba(var(--p500), 0.2);
+  /* btn mode 1 (primary) */
+  --bm1-bg1: rgba(var(--p500), 1);
+  --bm1-bg1b: rgba(var(--p500), 1);
+  --bm1-fc1: rgba(var(--n100), 1);
+  --bm1-bg1-hover: rgba(var(--light-2), 1);
+  --bm1-bg1b-hover: rgba(var(--light-2), 1);
+  --bm1-fc1-hover: rgba(var(--n100), 1);
+  /* btn mode 2 (secondary) */
+  --bm2-bg1b: rgba(var(--p500), 0.2);
+  --bm2-fc1: rgba(var(--p500), 1);
+  --bm2-bg1-hover: rgba(var(--light-2), 1);
+  --bm2-bg1b-hover: rgba(var(--light-2), 1);
+  --bm2-fc1-hover: rgba(var(--n100), 1);
+  /* link mode 1 (tab link) */
+  --lm1-fc1: rgba(var(--light-1), 0.6);
+  --lm1-fc1-hover: rgba(var(--light-1), 1);
+  --lm1-bg1b-active: rgba(var(--p500), 1);
+  --lm1-fc1-active: rgba(var(--light-1), 1);
+}
+
+/* card mode 1 when inside section mode 2 */
+:is([section-mode="2"], [class*="sm0-2"])
+  :is([card-mode="1"], [class*="cm0-1"]) {
+  --m-bg1: rgba(var(--dark-2), 1);
+  --m-fc2: rgba(var(--light-2), 0.7);
+  --m-bc1: rgba(var(--light-2), 0.2);
+  --m-sc1: rgba(var(--p500), 1);
+}
+/* card mode 1 default style */
+:is([card-mode="1"], [class*="cm0-1"]),
+/* card mode 1 when inside section mode 1 */
+:is([section-mode="1"], [class*="sm0-1"]) :is([card-mode="1"], [class*="cm0-1"]) {
+  --m-bg1: rgba(var(--light-2), 1);
+  --m-fc2: rgba(var(--n100), 0.7);
+  --m-bc1: rgba(var(--n100), 0.2);
+  --m-sc1: rgba(var(--n100), 1);
+}
+
+/**%{{element mode: tag}**/
+[element-mode="1"],
+[class*="em0-1"] {
+  --m-bg1: var(--em1-bg1);
+  --m-fc1: var(--em1-fc1);
+  --m-bc1: var(--em1-bc1);
+} /**}%**/
+
+/**%{{btn mode: solid}**/
+[btn-mode="1"],
+[class*="bm0-1"] {
+  --m-bg1: var(--bm1-bg1);
+  --m-fc1: var(--bm1-fc1);
+  --m-bg1-hover: var(--bm1-bg1-hover);
+  --m-fc1-hover: var(--bm1-fc1-hover);
+} /**}%**/
+
+/**%{{btn mode: outlined}**/
+[btn-mode="2"],
+[class*="bm0-2"] {
+  --m-bg1b: var(--bm2-bg1b);
+  --m-fc1: var(--bm2-fc1);
+  --m-bg1-hover: var(--bm2-bg1-hover);
+  --m-bg1b-hover: var(--bm2-bg1b-hover);
+  --m-fc1-hover: var(--bm2-fc1-hover);
+  --selection-bg: var(--alt-selection-bg);
+  --selection-fc: var(--alt-selection-fc);
+} /**}%**/
+
+/**%{{link mode: nav}**/
+[link-mode="1"],
+[class*="lm0-1"] {
+  --m-fc1: var(--lm1-fc1);
+  --m-fc1-hover: var(--lm1-fc1-hover);
+  --m-bg1b-active: var(--lm1-bg1b-active);
+  --m-fc1-active: var(--lm1-fc1-active);
+  --selection-bg: var(--alt-selection-bg);
+  --selection-fc: var(--alt-selection-fc);
+} /**}%**/
+
+/* backgrounds */
+[class*="bg0"] {
+  background-color: transparent;
+}
+[class*="bg0-1"] {
+  background-color: currentColor;
+}
+[class*="bg1"] {
+  background-color: var(--bg1);
+  background-image: var(--bg1i);
+  border-color: var(--bg1b);
+  box-shadow: var(--bg1s);
+}
+[class*="bg2"] {
+  background-color: var(--bg2);
+  background-image: var(--bg2i);
+  border-color: var(--bg2b);
+  box-shadow: var(--bg2s);
+}
+/* font colors */
+[class*="fc0"] {
+  color: transparent;
+}
+[class*="fc0-1"] {
+  color: currentColor;
+}
+[class*="fc0-2"] {
+  color: inherit;
+}
+[class*="fc1"] {
+  color: var(--fc1);
+}
+[class*="fc2"] {
+  color: var(--fc2);
+}
+/* border colors */
+[class*="bc0"] {
+  border-color: transparent;
+}
+[class*="bc0-1"] {
+  border-color: currentColor;
+}
+[class*="bc0-2"] {
+  border-color: inherit;
+}
+[class*="bc1"] {
+  border-color: var(--bc1);
+}
+[class*="bc2"] {
+  border-color: var(--bc2);
+}
+/* text stroke colors */
+[class*="sc0"] {
+  -webkit-text-stroke-color: transparent;
+}
+[class*="sc0-1"] {
+  -webkit-text-stroke-color: currentColor;
+}
+[class*="sc0-2"] {
+  -webkit-text-stroke-color: inherit;
+}
+[class*="sc1"] {
+  -webkit-text-stroke-color: var(--sc1);
+}

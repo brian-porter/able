@@ -1,0 +1,49 @@
+/* Banner Sizes */
+[bnr-size="l"] {
+    padding: 8px 8px;
+  }
+  
+  [bnr-size="m"] {
+    padding: 4px 8px;
+  }
+  
+  [bnr-size="s"] {
+    padding: 2px 8px;
+  }
+  
+  /* Banner Color */
+  [bnr-clr="n"] {
+    background: rgba(var(--n999), 0.4);
+  }
+  [bnr-clr="p"] {
+    background: rgba(var(--p500), 1);
+  }
+  
+  /* Banner Location */
+  [bnr-loc="tl"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0px 0px 8px 0px;
+  }
+  
+  [bnr-loc="tr"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 0px 0px 8px;
+  }
+  
+  [bnr-loc="bl"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0px 8px 0px 0px;
+  }
+  
+  [bnr-loc="br"] {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 8px 0px 0px 0px;
+  }

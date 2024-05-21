@@ -1,0 +1,91 @@
+/* Flex Content Align: Initially for Banners */
+[cont-align="l"] {
+  justify-content: flex-start;
+}
+[cont-align="c"] {
+  justify-content: center;
+}
+[cont-align="r"] {
+  justify-content: flex-end;
+}
+[cont-align="sb"] {
+  justify-content: space-between;
+}
+[cont-align="sa"] {
+  justify-content: space-around;
+}
+/* Corner Radius: Initially for Cards */
+[corner-radius="4"] {
+  border-radius: 8px;
+}
+[corner-radius="8"] {
+  border-radius: 8px;
+}
+[corner-radius="16"] {
+  border-radius: 16px;
+}
+
+/* Card Caption: Padding for the sides */
+[cap-pad="y"] {
+  padding: 0 8px;
+}
+
+/* Menus Wrapper: For display on desktop as a wrapper around menu components to change the sizing */
+.menu-desktop {
+  container-type: inline-size;
+  container-name: context;
+}
+@container context (max-width:250px) {
+  .menuitem {
+    min-height: 32px;
+  }
+  .g-privacy .menuitem {
+    min-height: 48px;
+  }
+  .mic-lead-icn {
+    padding: 0px 8px;
+  }
+  .label {
+    font-size: var(--r4);
+  }
+  .shead {
+    display: none;
+  }
+}
+
+/* For Desktop Detection */
+@media (pointer: fine) {
+  .menuitem {
+  }
+}
+/* For Touch Device Detection */
+@media (pointer: coarse) {
+  .menuitem {
+  }
+}
+
+/* MenuItem & ListItem Btm Divider */
+[div="y"] {
+  border-bottom: 1px solid rgba(var(--n999), 0.1);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.bar-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.bar-wrap {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Dialog: Set the backdrop color when htmx dialog shows */
+dialog::backdrop {
+  background-color: rgb(29 28 26 / 79%);
+  backdrop-filter: blur(8px); /* And blur for some fun flare ;) */
+}
+/* Card: Glow effect */
+[shadow="y"] {
+  box-shadow: 0 0 rgba(var(--p500), 0), 0 1.4px 4.5px rgba(var(--p500), 0.184),
+    0 4.5px 11.9px rgba(var(--p500), 0.21);
+}

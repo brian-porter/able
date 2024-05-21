@@ -1,0 +1,84 @@
+.dialog {
+  z-index: 1000000;
+
+  overflow: hidden;
+  max-width: 550px;
+  padding: 0px;
+
+  border: 0px solid var(--theme--light--t000);
+  border-radius: 16px;
+
+  background-color: var(--theme--light--n000);
+}
+
+@media screen and (max-width: 767px) {
+  .dialog {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+
+    max-width: 320px;
+    min-height: 100svw;
+    min-width: 100svw;
+
+    border-width: 0px;
+    border-radius: 0px;
+  }
+}
+
+.dialog.cc-sign-in {
+  max-width: 750px;
+}
+
+@media screen and (max-width: 767px) {
+  .dialog.cc-sign-in {
+    max-width: 767px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .dialog.cc-sign-in {
+    max-width: 479px;
+  }
+}
+
+.dialog.cc-sign-up {
+  max-width: 750px;
+}
+
+.dialog.cc-frosted {
+  background-color: var(--theme--light--t000);
+}
+
+.btn-dialog-close {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 1000001;
+
+  padding: 16px;
+
+  background-color: var(--theme--light--t000);
+
+  font-family: Icons;
+  color: var(--theme--light--n500);
+}
+
+.dialog-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  .dialog-content {
+    height: 100svh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}

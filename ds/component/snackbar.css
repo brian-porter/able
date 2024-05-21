@@ -1,0 +1,55 @@
+[sb-style="none"] {
+  background: rgba(var(--n700), 1);
+  border-width: 1px;
+  border-color: rgba(var(--n500), 1);
+}
+[sb-style="success"] {
+  background: rgba(var(--fs700), 1);
+  border-width: 1px;
+  border-color: rgba(var(--fs500), 1);
+}
+[sb-style="error"] {
+  background: rgba(var(--fd700), 1);
+  border-width: 1px;
+  border-color: rgba(var(--fd500), 1);
+}
+[sb-style="warn"] {
+  background: rgba(var(--fw700), 1);
+  border-width: 1px;
+  border-color: rgba(var(--fw500), 1);
+}
+[sb-style="info"] {
+  background: rgba(var(--f700), 1);
+  border-width: 1px;
+  border-color: rgba(var(--f500), 1);
+}
+[sb-loc="top"] {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  padding: 40px;
+}
+[sb-loc="btm"] {
+  position: absolute;
+  z-index: 10;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 100px;
+}
+[sb-loc="center"] {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
+}
+.snackbar .btn-link {
+  margin-right: -16px;
+}

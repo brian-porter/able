@@ -1,0 +1,41 @@
+/* Paragraph Size */
+[par-size="in"] {
+  font-size: inherit;
+}
+/* DEPRECATED: In favor of the base level font size (fs), keeping in case we want to reverse
+[par-size="r4"] {
+  font-size: var(--r4);
+}
+
+[par-size="r3"] {
+  font-size: var(--r3);
+}
+
+[par-size="r2"] {
+  font-size: var(--r2);
+}
+
+[par-size="r1"] {
+  font-size: var(--r1);
+}
+
+[par-size="h5"] {
+  font-size: var(--h5);
+}
+
+[par-size="h4"] {
+  font-size: var(--h4);
+}
+
+[par-size="h3"] {
+  font-size: var(--h3);
+}
+
+[par-size="h2"] {
+  font-size: var(--h2);
+}
+
+[par-size="h1"] {
+  font-size: var(--h1);
+}
+*/

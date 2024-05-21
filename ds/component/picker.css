@@ -1,0 +1,5 @@
+/* Picker for current day, week, month, year (Bolded with Accent Color) */
+[pick-current="y"] .label {
+  color: rgba(var(--p500), 1);
+  font-weight: bold;
+}

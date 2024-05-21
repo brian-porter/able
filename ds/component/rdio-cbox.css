@@ -1,0 +1,80 @@
+/* Radio, Checkbox & Toggle Alignment */
+[input-align="l"] {
+  justify-content: flex-start;
+}
+[input-align="c"] {
+  justify-content: center;
+}
+[input-align="r"] {
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+[input-align="r"] .label,
+.feedback-cbox {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.rdio-ctrl {
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+.rdio-ctrl + .rdio-ctrl {
+  margin-top: 1em;
+}
+/* Change the label color on focus */
+.rdio-ctrl:focus-within {
+  color: rgba(var(--na), 1);
+}
+
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  /* Remove most all native input styles */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: rgba(var(--n000), 1);
+  /* Not removed via appearance */
+  margin: 0;
+
+  color: rgba(var(--n300), 1);
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid rgba(var(--n300), 1);
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em rgba(var(--p500), 1);
+  /* Windows High Contrast Mode */
+  background-color: CanvasText;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="radio"]:focus {
+  /* outline: max(1px, 0.0em) solid rgba(var(--p500), 1);
+  outline-offset: max(1px, 0.0em); */
+}
+
+/* checkbox and radio selected 
+.w-checkbox-input.w--redirected-checked,
+.w-radio-input.w--redirected-checked {
+  background-color: rgba(var(--p500), 1);
+  border-color: rgba(var(--p500), 1);
+}
+*/

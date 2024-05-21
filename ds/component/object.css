@@ -1,0 +1,240 @@
+/* Overlay Object Location */
+[obj-loc="top"] {
+  position: absolute;
+  top: 0%;
+}
+[obj-loc="tl"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+[obj-loc="tr"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+[obj-loc="btm"] {
+  position: absolute;
+  bottom: 0;
+}
+[obj-loc="btm10"] {
+  position: absolute;
+  bottom: 10%;
+}
+
+[obj-loc="bl"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+[obj-loc="br"] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Image, AdaptIcon, Avatar Standard Sizes */
+[obj-size="auto"] {
+  width: auto;
+}
+[obj-size="3xl"] {
+  width: 156px;
+  height: 156px;
+}
+[obj-size="2xl"] {
+  width: 104px;
+  height: 104px;
+}
+
+[obj-size="2xl"] .icn {
+  font-size: var(--h2);
+}
+[group-size="2xl"] .avatar,
+[group-size="2xl"] .obj_wrap .img,
+[group-size="2xl"] .adpt_wrapr {
+  width: 104px;
+  height: 104px;
+}
+[obj-size="xl"] {
+  width: 80px;
+  height: 80px;
+}
+
+[obj-size="xl"] .icn {
+  font-size: var(--h2);
+}
+[group-size="xl"] .avatar,
+[group-size="xl"] .obj_wrap .img,
+[group-size="xl"] .adpt_wrapr {
+  width: 80px;
+  height: 80px;
+}
+
+[obj-size="l"] {
+  width: 64px;
+  height: 64px;
+}
+
+[obj-size="l"] .icn {
+  font-size: var(--h3);
+}
+[group-size="l"] .avatar,
+[group-size="l"] .obj_wrap .img,
+[group-size="l"] .adpt_wrapr {
+  width: 64px;
+  height: 64px;
+}
+
+[obj-size="m"] {
+  width: 48px;
+  height: 48px;
+}
+
+[obj-size="m"] .icn {
+  font-size: var(--r1);
+}
+[group-size="m"] .avatar,
+[group-size="m"] .obj_wrap .img,
+[group-size="m"] .adpt_wrapr {
+  width: 48px;
+  height: 48px;
+}
+
+[obj-size="s"] {
+  width: 32px;
+  height: 32px;
+}
+
+[obj-size="s"] .icn {
+  font-size: var(--r2);
+}
+[group-size="s"] .avatar,
+[group-size="s"] .obj_wrap .img,
+[group-size="s"] .adpt_wrapr {
+  width: 32px;
+  height: 32px;
+}
+
+[obj-size="xs"] {
+  width: 24px;
+  height: 24px;
+}
+
+[obj-size="xs"] .icn {
+  font-size: var(--r4);
+}
+
+[group-size="xs"] .avatar,
+[group-size="xs"] .obj_wrap .img,
+[group-size="xs"] .adpt_wrapr {
+  width: 24px;
+  height: 24px;
+}
+
+[data-overlap="true"] {
+  margin-right: -8px;
+}
+
+/* AdaptIcon, Avatar Standard Shape */
+[obj-shape="c"] {
+  border-radius: 100vh;
+}
+
+[obj-shape="s"] {
+  border-radius: 2.2vh;
+}
+
+[obj-shape="r"] {
+  border-radius: 0.7vh;
+}
+
+[obj-shape="b"] {
+  border-radius: 0px;
+}
+
+/* AdptIcn BG Color */
+[obj-clr="d"] {
+  background: rgba(var(--fd500), 1);
+  border-color: rgba(var(--fd500), 1);
+}
+
+[obj-clr="w"] {
+  background: rgba(var(--fw500), 1);
+  border-color: rgba(var(--fw500), 1);
+}
+
+[obj-clr="s"] {
+  background: rgba(var(--fs500), 1);
+  border-color: rgba(var(--fs500), 1);
+}
+
+[obj-clr="p"] {
+  background: rgba(var(--p500), 1);
+  border-color: rgba(var(--p500), 1);
+}
+
+[obj-clr="n"] {
+  background: rgba(var(--n500), 1);
+  border-color: rgba(var(--n500), 1);
+}
+[obj-asp="na"] {
+  aspect-ratio: auto;
+}
+[obj-asp="1-1"] {
+  aspect-ratio: 1/1;
+}
+[obj-asp="16-9"] {
+  aspect-ratio: 16/9;
+}
+[obj-asp="9-16"] {
+  aspect-ratio: 9/16;
+}
+[obj-asp="21-9"] {
+  aspect-ratio: 2.39/1;
+}
+[obj-asp="9-21"] {
+  aspect-ratio: 9/21;
+}
+[obj-asp="3-2"] {
+  aspect-ratio: 3/2;
+}
+[obj-asp="2-3"] {
+  aspect-ratio: 2/3;
+}
+[obj-asp="3-4"] {
+  aspect-ratio: 3/4;
+}
+[obj-asp="4-3"] {
+  aspect-ratio: 4/3;
+}
+[obj-asp="5-4"] {
+  aspect-ratio: 5/4;
+}
+[obj-asp="4-5"] {
+  aspect-ratio: 4/5;
+}
+[obj-asp="3-5"] {
+  aspect-ratio: 3/5.35;
+}
+[obj-asp="5-3"] {
+  aspect-ratio: 5.35/3;
+}
+/* Object Align */
+[obj-align="l"] {
+  text-align: left;
+}
+
+[obj-align="c"] {
+  text-align: center;
+}
+
+[obj-align="r"] {
+  text-align: right;
+}
+
+[obj-align="j"] {
+  text-align: justify;
+}

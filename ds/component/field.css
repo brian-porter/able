@@ -1,0 +1,16 @@
+/* Form Field */
+[field-icn="n"] {
+  padding-left: 8px;
+}
+[field-icn="l"] {
+  padding-left: 30px;
+}
+[field-brd="fd500"] {
+  border: 1px solid rgba(var(--fd500), 1);
+}
+[field-brd="fw500"] {
+  border: 1px solid rgba(var(--fw500), 1);
+}
+[field-brd="fs500"] {
+  border: 1px solid rgba(var(--fs500), 1);
+}
