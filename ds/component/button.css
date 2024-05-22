@@ -150,6 +150,10 @@
   background: rgba(var(--t000), 0);
   color: rgba(var(--fw500), 1);
 }
+[btn-hug="r"] {
+  align: right;
+}
+
 /* Button Disabled */
 [btn-style="pf"]:disabled {
   background: rgba(var(--p200), 1);
@@ -181,11 +185,4 @@
 }
 [btnpan-ori="h"] a {
   width: 100%;
-}
-[btnpan-ori="hr"] {
-  flex-direction: row;
-  align-items: right;
-}
-[btnpan-ori="hr"] a {
-  width: 10%;
 }
