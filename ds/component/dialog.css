@@ -1,6 +1,6 @@
 .dialog {
   z-index: 1000000;
-
+  position: relative;
   overflow: hidden;
   max-width: 550px;
   padding: 0px;
@@ -9,6 +9,11 @@
   border-radius: 16px;
 
   background-color: var(--theme--light--n000);
+}
+
+.dialog-backdrop {
+  background: rgba(0,0,0,.5);
+  filter: blur(5px);
 }
 
 @media screen and (max-width: 767px) {
