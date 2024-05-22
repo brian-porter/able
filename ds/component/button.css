@@ -184,7 +184,7 @@
 }
 [btnpan-ori="hr"] {
   flex-direction: row;
-  align: right;
+  align-items: right;
 }
 [btnpan-ori="hr"] a {
   width: 10%;
