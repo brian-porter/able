@@ -186,3 +186,11 @@
 [btnpan-ori="h"] a {
   width: 100%;
 }
+
+[btnpan-ori="hr"] {
+  flex-direction: row;
+  justify-content: flex-end; 
+}
+[btnpan-ori="hr"] a {
+  width: auto;
+}
