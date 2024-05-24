@@ -2,7 +2,6 @@
   z-index: 1000000;
   position: relative;
   overflow: hidden;
-  max-width: 550px;
   padding: 0px;
 
   border: 0px solid var(--theme--light--t000);
