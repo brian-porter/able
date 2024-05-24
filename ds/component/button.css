@@ -192,6 +192,9 @@
   justify-content: flex-start;
   direction: rtl;
 }
+[btnpan-ori="hr"] [btn-size="l"] {
+    padding: 8px 28px;
+}
 [btnpan-ori="hr"] a {
   width: auto;
 }
