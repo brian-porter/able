@@ -1,3 +1,9 @@
+/* Input Field */
+input:read-only {
+  background-color: rgba(var(--n500), 1);
+  color: rgba(var(--n700), 1);
+}
+
 /* Form Field */
 [field-icn="n"] {
   padding-left: 8px;
