@@ -78,3 +78,10 @@ input[type="radio"]:focus {
   border-color: rgba(var(--p500), 1);
 }
 */
+
+/* Hide default HTML checkbox for toggle*/
+.toggle-ctrl input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
