@@ -3,10 +3,8 @@
   position: relative;
   overflow: hidden;
   padding: 0px;
-
   border: 0px solid var(--theme--light--t000);
   border-radius: 16px;
-
   background-color: var(--theme--light--n000);
 }
 .dialog-backdrop {
@@ -29,11 +27,9 @@
     top: 0%;
     right: 0%;
     bottom: 0%;
-
     max-width: 320px;
     min-height: 100svw;
     min-width: 100svw;
-
     border-width: 0px;
     border-radius: 0px;
   }
@@ -70,12 +66,9 @@
   right: 0%;
   bottom: auto;
   z-index: 1000001;
-
   padding: 16px;
-
   background-color: var(--theme--light--t000);
-
-  font-family: Icons;
+  font-family: var(--icon-font);
   color: var(--theme--light--n500);
 }
 
