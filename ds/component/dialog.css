@@ -58,7 +58,18 @@
 .dialog.cc-frosted {
   background-color: var(--theme--light--t000);
 }
-
+.btn-dialog-prev {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 100001;
+  padding: 16px;
+  background-color: var(--theme--light--t000);
+  font-family: var(--icon-font);
+  color: var(--theme--light--n500);
+}
 .btn-dialog-close {
   position: absolute;
   left: auto;
