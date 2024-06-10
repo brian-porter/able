@@ -94,7 +94,7 @@
 }
 
 [obj-size="m"] .icn {
-  font-size: var(--r1);
+  font-size: var(--h4);
 }
 [group-size="m"] .avatar,
 [group-size="m"] .obj_wrap .img,
