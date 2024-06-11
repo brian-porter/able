@@ -51,3 +51,8 @@
   --seg-clr: rgba(var(--p500), 1);
   --seg-clr-light: rgba(var(--p200), 1);
 }
+
+[segbtn-status="on"] {
+  background: var(--seg-clr);
+  color: var(--segbtn-bg);
+}
