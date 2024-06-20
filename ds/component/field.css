@@ -1,8 +1,11 @@
 /* Input Field */
+
+/* Temp Remove
 input:read-only {
   background-color: rgba(var(--n200), 1);
   color: rgba(var(--n500), 1);
 }
+*/
 
 /* Form Field */
 [field-icn="n"] {
