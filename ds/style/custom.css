@@ -11,10 +11,7 @@ body {
 .page_wrap {
   overflow: clip;
 }
-/* enable setting w-button border radius with utilities */
-.w-button {
-  border-radius: var(--border-radius);
-}
+
 /* hide container ::before & ::after */
 .w-container::before,
 .w-container::after {
