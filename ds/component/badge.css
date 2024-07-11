@@ -48,3 +48,14 @@
   [bdg-clr="n"] {
     background: rgba(var(--n700), 1);
   }
+
+/* Badge Availability Color */
+  [bdg-clr="on"] {
+    background: rgba(var(--green-500), 1);
+  }
+  [bdg-clr="off"] {
+    background: rgba(var(--grey-500), 1);
+  }
+  [bdg-clr="busy"] {
+    background: rgba(var(--red-500), 1);
+  }
