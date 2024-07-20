@@ -93,16 +93,3 @@
 [lbl-gap="4"] {
   gap: 4px;
 }
-
-[lc="n"] {
-line-clamp: none ;
-}
-[lc="1"] {
-line-clamp: 1 ;
-}
-[lc="2"] {
-line-clamp: 2 ;
-}
-[lc="3"] {
-line-clamp: 3 ;
-}
