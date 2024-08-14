@@ -3,28 +3,6 @@
 <!-- *************************** -->
 
 
-/*<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lumosframework/lumos@v1.0.5/color.css"/>
-<style id="lumos-colors">
-/* COLOR STYLES */
-
-/**%#**/
-/* btn and link mode transitions */
-[btn-mode], [class*="bm0"],
-[link-mode], [class*="lm0"] {
-  transition-property: background-color, color, border-color, box-shadow;
-  transition-duration: 200ms;
-}
-/* applies default border width to cards, elements, and buttons */
-[card-mode]:not([card-mode=""]),
-[class*="cm0"],
-[element-mode]:not([element-mode=""]),
-[class*="em0"],
-[btn-mode]:not([btn-mode=""]),
-[class*="bm0"] {
-  --border-width: var(--bw1);
-}
-/**#%**/
-
 /* global swatches */
 html {
   /* DS Neutrals */
@@ -61,15 +39,6 @@ html {
   --fs700: 18, 123, 18;
   /* DS Fades & Transparency */
   --t000: 255, 255, 255;
-
-  /* lumos stuff
-  --light-1: 255, 255, 255;
-  --light-2: 244, 244, 241;
-  --dark-2: 53, 53, 49;
-  --alt-selection-bg: rgba(var(--p500), 1);
-  --alt-selection-fc: rgba(var(--n100), 1);
-}
-   */
 
 /* DS Color Variables */
 [clr="n000"] {color: rgba(var(--n000), 1);}
