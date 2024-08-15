@@ -1,7 +1,6 @@
-<!-- *************************** -->
-<!-- **.    COLOR STYLES      .**-->
-<!-- *************************** -->
-
+/***************************/
+/**.    COLOR STYLES     .**/
+/***************************/
 
 /* global swatches */
 html {
@@ -14,7 +13,7 @@ html {
   --n700: 109, 109, 109;
   --n900: 80, 80, 80;
   --n999: 17, 17, 17;
-  /* DS Primary
+  /* DS Primary */
   --p100: 232, 241, 254;
   --p200: 163, 200, 249;
   --p300: 94, 158, 245;
@@ -39,7 +38,7 @@ html {
   --fs700: 18, 123, 18;
   /* DS Fades & Transparency */
   --t000: 255, 255, 255;
-
+}
 /* DS Color Variables */
 [clr="n000"] {color: rgba(var(--n000), 1);}
 [clr="n100"] {color: rgba(var(--n100), 1);}
@@ -140,47 +139,21 @@ html {
 }
  
 /* Font Colors */
-[class*="fc0"] {
-  color: transparent;
-}
-[class*="fc0-1"] {
-  color: currentColor;
-}
-[class*="fc0-2"] {
-  color: inherit;
-}
-[class*="fc1"] {
-  color: var(--fc1);
-}
-[class*="fc2"] {
-  color: var(--fc2);
-}
+[class*="fc0"] {color: transparent;}
+[class*="fc0-1"] {color: currentColor;}
+[class*="fc0-2"] {color: inherit;}
+[class*="fc1"] {color: var(--fc1);}
+[class*="fc2"] {color: var(--fc2);}
+  
 /* border colors */
-[class*="bc0"] {
-  border-color: transparent;
-}
-[class*="bc0-1"] {
-  border-color: currentColor;
-}
-[class*="bc0-2"] {
-  border-color: inherit;
-}
-[class*="bc1"] {
-  border-color: var(--bc1);
-}
-[class*="bc2"] {
-  border-color: var(--bc2);
-}
+[class*="bc0"] {border-color: transparent;}
+[class*="bc0-1"] {border-color: currentColor;}
+[class*="bc0-2"] {border-color: inherit;}
+[class*="bc1"] {border-color: var(--bc1);}
+[class*="bc2"] {border-color: var(--bc2);}
+  
 /* Text Stroke Colors */
-[class*="sc0"] {
-  -webkit-text-stroke-color: transparent;
-}
-[class*="sc0-1"] {
-  -webkit-text-stroke-color: currentColor;
-}
-[class*="sc0-2"] {
-  -webkit-text-stroke-color: inherit;
-}
-[class*="sc1"] {
-  -webkit-text-stroke-color: var(--sc1);
-}
+[class*="sc0"] {-webkit-text-stroke-color: transparent;}
+[class*="sc0-1"] {-webkit-text-stroke-color: currentColor;}
+[class*="sc0-2"] {-webkit-text-stroke-color: inherit;}
+[class*="sc1"] {-webkit-text-stroke-color: var(--sc1);}
