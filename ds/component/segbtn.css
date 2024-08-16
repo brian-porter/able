@@ -36,8 +36,50 @@
   color: var(--seg-clr);
   font-weight: bold;
 }
+.segbtn-menu {
+  background: var(--a-segbtn-bg);
+  border: 1px solid var(--seg-bdr);
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 36px;
+  overflow: hidden;
+  width: auto;
+}
+.segbtn-menu a {
+  color: var(--seg-clr);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s color, 0.3s background, 0.3s border-color;
+  -webkit-tap-highlight-color: transparent;
+}
+.segbtn.w--current {
+  background: var(--seg-clr);
+  color: var(--segbtn-bg);
+}
+.segbtn.w--current .label .txt {
+	font-weight: bold;
+}
+.segbtn.w--current .label .icn::first-letter {
+    text-transform: uppercase;
+}
 
-.a-seg-grey {
+.segbtn-menu a:not(:first-child) {
+  border-left: 1px solid currentColor;
+}
+
+.segbtn-wrap-alt a:not(:first-child) {
+  border: 0;
+}
+.segbtn-wrap-alt a.active {
+  background: var(--seg-clr-light);
+  color: var(--seg-clr);
+  font-weight: bold;
+}
+
+.seg-grey {
   --seg-clr: rgba(var(--n700), 1);
   --seg-clr-light: rgba(var(--n200), 1);
 }
@@ -55,4 +97,9 @@
 [segbtn-status="on"] {
   background: var(--seg-clr);
   color: var(--segbtn-bg);
+}
+[segbtn-status="on"] .a-segbtn-wrap-alt a.active {
+  background: var(--seg-clr-light);
+  color: var(--seg-clr);
+  font-weight: bold;
 }
