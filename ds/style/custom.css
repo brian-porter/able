@@ -1,6 +1,6 @@
-<!-- *************************** -->
-<!-- **.    CUSTOM STYLES    .** -->
-<!-- *************************** -->
+/****************************/
+/**.    CUSTOM STYLES     .**/
+/****************************/
 
 
 /* remove scroll bounce */
@@ -55,10 +55,9 @@ body {
   border-color: rgba(var(--f500), 1);
 }
 
-
-<!-- *************************** -->
-<!-- **. BQ CUSTOM STYLES    .** -->
-<!-- *************************** -->
+/*******************************/
+/**.    BQ CUSTOM STYLES     .**/
+/*******************************/
 
 /**#PAGE_CODE_COLOR%**/
 /* btn and link mode transitions */
@@ -145,56 +144,4 @@ html {
   a:hover [btn-play="base"] {
     transform: scale(1.1);
   }
-}
-
-<!-- *************************** -->
-<!-- **. Theme TESTING    .** -->
-<!-- *************************** -->
-
-
-/* theme light */
-:root,
-[data-theme="light"],
-[data-theme="dark"] [data-theme="invert"] {
-  --theme--background: var(--theme--light--n000);
-  --theme--text: var(--theme--light--n999);
-
-  --theme--border: var(--swatch--dark-fade);
-  /* button primary */
-  --button--background: var(--swatch--brand);
-  --button--text: var(--swatch--brand-text);
-  --button--border: var(--swatch--brand);
-  --button--background-hover: var(--swatch--dark);
-  --button--text-hover: var(--swatch--light);
-  --button--border-hover: var(--swatch--dark);
-  /* button secondary */
-  --button-secondary--background: var(--swatch--transparent);
-  --button-secondary--text: var(--swatch--dark);
-  --button-secondary--border: var(--swatch--dark-fade);
-  --button-secondary--background-hover: var(--swatch--brand);
-  --button-secondary--text-hover: var(--swatch--brand-text);
-  --button-secondary--border-hover: var(--swatch--brand);
-}
-/* theme dark */
-[data-theme="dark"],
-[data-theme="invert"],
-[data-theme="light"] [data-theme="invert"] {
-  --theme--background: var(--theme--dark--n000);
-  --theme--text: var(--theme--dark--n999);
-
-  --theme--border: var(--swatch--light-fade);
-  /* button primary */
-  --button--background: var(--swatch--brand);
-  --button--text: var(--swatch--brand-text);
-  --button--border: var(--swatch--brand);
-  --button--background-hover: var(--swatch--light);
-  --button--text-hover: var(--swatch--dark);
-  --button--border-hover: var(--swatch--light);
-  /* button secondary */
-  --button-secondary--background: var(--swatch--transparent);
-  --button-secondary--text: var(--swatch--light);
-  --button-secondary--border: var(--swatch--light-fade);
-  --button-secondary--background-hover: var(--swatch--brand);
-  --button-secondary--text-hover: var(--swatch--brand-text);
-  --button-secondary--border-hover: var(--swatch--brand);
 }
