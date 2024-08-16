@@ -1,4 +1,3 @@
-
 /*  Material Design Color Palette
  *  - - - - - - - - - - - - - - - - - -
  *
@@ -325,7 +324,7 @@ html {
 /* White / Black */
 --white: 255, 255, 255;
 --black: 0, 0, 0;
-
+}
 /* Color Variable For Use With Fonts*/
 
 /* Red */
