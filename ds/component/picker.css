@@ -1,5 +1,16 @@
 /* Picker for current day, week, month, year (Bolded with Accent Color) */
-[pick-current="y"] .label {
+[pick-current="true"] .label {
   color: rgba(var(--p500), 1);
   font-weight: bold;
+}
+/* Picker for the active selection */
+[pick-active="true"] {
+  background-color: rgba(var(--p500), 1);
+}
+[pick-active="true"] .label {
+  color: rgba(var(--n000), 1);
+  font-weight: bold;
+}
+[pick-active="true"] .icn::first-letter {
+    text-transform: uppercase;
 }
