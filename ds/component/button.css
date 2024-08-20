@@ -1,3 +1,4 @@
+<style>
 /* Btn Size */
 [btn-size="in"] {
   font-size: inherit;
@@ -96,6 +97,36 @@
   color: rgba(var(--n700), 1);
 }
 [btn-style="nt"]:disabled {
+  color: rgba(var(--n200), 1);
+  cursor: not-allowed;
+}
+/* Btn Light */
+[btn-style="lf"] {
+  background: rgba(var(--n000), 1);
+}
+[btn-style="lf"]:disabled {
+  background: rgba(var(--n200), 1);
+  color: rgba(var(--n100), 1);
+  cursor: not-allowed;
+}
+
+[btn-style="ll"] {
+  background: rgba(var(--n000), 0.0);
+  border-width: 1px;
+  border-color: rgba(var(--n000), 1);
+  color: rgba(var(--n000), 1);
+}
+[btn-style="ll"]:disabled {
+  border-color: rgba(var(--n100), 1);
+  color: rgba(var(--n200), 1);
+  cursor: not-allowed;
+}
+
+[btn-style="lt"] {
+  background: rgba(var(--t000), 0);
+  color: rgba(var(--n000), 1);
+}
+[btn-style="lt"]:disabled {
   color: rgba(var(--n200), 1);
   cursor: not-allowed;
 }
@@ -198,3 +229,5 @@
 [btnpan-ori="hr"] a {
   width: auto;
 }
+
+</style>
