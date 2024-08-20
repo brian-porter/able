@@ -1,5 +1,5 @@
 /* Picker for current day, week, month, year (Bolded with Accent Color) */
-[pick-current="true"] .label {
+[pick-current="true"] * {
   color: rgba(var(--p500), 1);
   font-weight: bold;
 }
@@ -7,7 +7,7 @@
 [pick-active="true"] {
   background-color: rgba(var(--p500), 1);
 }
-[pick-active="true"] .label {
+[pick-active="true"] * {
   color: rgba(var(--n000), 1);
   font-weight: bold;
 }
