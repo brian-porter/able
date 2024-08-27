@@ -1,9 +1,10 @@
 
-/* Styles */
+/* Styles
 @import url("style/typography.css");
 @import url("style/color.css");
 @import url("style/utility.css");
 @import url("style/custom.css");
+*/
 
 /* Components */
 @import url("component/icon.css");
