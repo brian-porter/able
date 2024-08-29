@@ -74,7 +74,7 @@
 /* Btn Neutral */
 [btn-style="nf"] {
   background: rgba(var(--n500), 1);
-  color: rgba(var(--n700), 1);
+  color: rgba(var(--n000), 1);
 }
 [btn-style="nf"]:disabled {
   background: rgba(var(--n200), 1);
@@ -95,8 +95,8 @@
 }
 
 [btn-style="nt"] {
-  background: rgba(var(--t000), 0);
-  color: rgba(var(--n700), 1);
+  background: rgba(var(--n000), 0);
+  color: rgba(var(--n000), 1);
 }
 [btn-style="nt"]:disabled {
   color: rgba(var(--n200), 1);
@@ -105,7 +105,7 @@
 /* Btn Light */
 [btn-style="lf"] {
   background: rgba(var(--n000), 1);
-  color: rgba(var(--n000), 1);
+  color: rgba(var(--n500), 1);
 }
 [btn-style="lf"]:disabled {
   background: rgba(var(--n200), 1);
