@@ -42,6 +42,7 @@
 /* Btn Primary */
 [btn-style="pf"] {
   background: rgba(var(--p500), 1);
+  color: rgba(var(--n000), 1);
 }
 [btn-style="pf"]:disabled {
   background: rgba(var(--p200), 1);
@@ -73,6 +74,7 @@
 /* Btn Neutral */
 [btn-style="nf"] {
   background: rgba(var(--n500), 1);
+  color: rgba(var(--n700), 1);
 }
 [btn-style="nf"]:disabled {
   background: rgba(var(--n200), 1);
@@ -103,6 +105,7 @@
 /* Btn Light */
 [btn-style="lf"] {
   background: rgba(var(--n000), 1);
+  color: rgba(var(--n000), 1);
 }
 [btn-style="lf"]:disabled {
   background: rgba(var(--n200), 1);
@@ -134,6 +137,7 @@
 /* btn focus */
 [btn-style="ff"] {
   background: rgba(var(--f500), 1);
+  color: rgba(var(--n000), 1);
 }
 
 [btn-style="fl"] {
@@ -151,6 +155,7 @@
 /* Btn Danger */
 [btn-style="df"] {
   background: rgba(var(--fd500), 1);
+  color: rgba(var(--n000), 1);
 }
 
 [btn-style="dl"] {
@@ -168,6 +173,7 @@
 /* Btn Warn */
 [btn-style="wf"] {
   background: rgba(var(--fw500), 1);
+  color: rgba(var(--n000), 1);
 }
 
 [btn-style="wl"] {
@@ -183,12 +189,6 @@
 }
 [btn-hug="r"] {
   align: right;
-}
-
-/* Button Disabled */
-[btn-style="pf"]:disabled {
-  background: rgba(var(--p200), 1);
-  color: rgba(var(--n100), 1);
 }
 
 /* Button Label Icon Location */
