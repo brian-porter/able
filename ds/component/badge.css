@@ -59,3 +59,28 @@
   [bdg-clr="busy"] {
     background: rgba(var(--red-500), 1);
   }
+
+/* Badge Location */
+[bdg-loc="tl"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+[bdg-loc="tr"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+[bdg-loc="bl"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+[bdg-loc="br"] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
