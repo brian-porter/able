@@ -96,7 +96,7 @@
 
 [btn-style="nt"] {
   background: rgba(var(--n000), 0);
-  color: rgba(var(--n000), 1);
+  color: rgba(var(--n700), 1);
 }
 [btn-style="nt"]:disabled {
   color: rgba(var(--n200), 1);
