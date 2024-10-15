@@ -30,12 +30,13 @@
   padding: 0 8px;
 }
 
-/* Menus Wrapper: For display on desktop as a wrapper around menu components to change the sizing */
-.menu-desktop {
+/* Menus Wrapper: For display on desktop as a menu component property to change the sizing */
+[mini="true"] {
   container-type: inline-size;
-  container-name: context;
+  container-name: menu;
+  max-width:250px;
 }
-@container context (max-width:250px) {
+@container menu (max-width:250px) {
   .menuitem {
     min-height: 32px;
   }
