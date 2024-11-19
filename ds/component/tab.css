@@ -1,0 +1,26 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tab-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tab-bar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Change appearance of current tab to follow design system standards */
+.tab-link.w--current .label .txt {
+	font-weight: bold;
+}
+.tab-link.w--current .label .icn::first-letter {
+    text-transform: uppercase;
+}
+[tab-underline="y"]
+.tab-link.w--current {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--theme--light--p500);
+    color: var(--theme--light--p500);
+    font-weight: 700;
+}
