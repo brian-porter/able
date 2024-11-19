@@ -32,7 +32,8 @@
 @import url("component/element.css");
 @import url("component/carousel.css");
 @import url("component/background.css");
-@import url("component/dialog.css"); 
+@import url("component/dialog.css");
+@import url("component/tab.css");
 
 /* Utilities */
 /* Material Design Color Palette */
