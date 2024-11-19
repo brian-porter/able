@@ -440,3 +440,27 @@ footer {
   top: 0;
   left: 0;
 }
+
+/* Menus Wrapper: For display on desktop as a wrapper around menu components to change the sizing */
+[mini="true"] {
+  container-type: inline-size;
+  container-name: menu;
+  max-width:250px;
+}
+@container menu (max-width:250px) {
+  .menuitem {
+    min-height: 32px;
+  }
+  .g-privacy .menuitem {
+    min-height: 48px;
+  }
+  .mic-lead-icn {
+    padding: 0px 8px;
+  }
+  .label {
+    font-size: var(--r4);
+  }
+  .shead {
+    display: none;
+  }
+}
