@@ -229,3 +229,16 @@
 [btnpan-ori="hr"] a {
   width: auto;
 }
+
+[btn-active="true"] {
+  background: rgba(var(--p100), .5);
+  border-width: 1px;
+  border-color: rgba(var(--p500), 1);
+  color: rgba(var(--p500), 1);
+}
+[btn-active="true"] * .label .txt {
+	font-weight: bold;
+}
+[btn-active="true"] * .label .icn::first-letter {
+    text-transform: uppercase;
+}
