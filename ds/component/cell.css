@@ -1,7 +1,38 @@
 /* Cell Size Standards */
-[cell-sz="104"] {
-  width: 104px;
+[cell-size="3xl"] {
+	width: 156px;
 }
-[cell-sz="156"] {
-  width: 156px;
+[cell-size="2xl"] {
+	width: 104px;
+}
+[cell-size="xl"] {
+	width: 88px;
+}
+[cell-size="l"] {
+	width: 72px;
+}
+[cell-size="m"] {
+	width: 56px;
+}
+[cell-size="s"] {
+	width: 40px;
+}
+[cell-size="xs"] {
+	width: 32px;
+}
+/* Padding and design changes when cell content is in Card format */
+[cell-card="true"] .cell-caption {
+	padding-left: 8px;
+  padding-right: 8px;
+	padding-bottom: 4px;
+}
+[cell-card="true"] {
+	border-radius: 8px;
+	box-shadow: 0 1px 10px rgba(var(--n999), 0.2), 0 2px 4px rgba(var(--n999), 0.137), 0 4px 5px rgba(var(--n999), 0.118);
+}
+[cell-card="true"] .cell-subject .obj_wrap {
+	border-radius: 0px;
+}
+[cell-card="true"] .cell-subject .avatar {
+	margin-top: 8px;
 }
