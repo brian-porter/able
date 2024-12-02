@@ -411,7 +411,8 @@ html {
 [class*="lc1"],
 [class*="lc2"],
 [class*="lc3"],
-[class*="lc4"] {
+[class*="lc4"],
+[class*="lc5"]{
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 1;
@@ -425,6 +426,9 @@ html {
 }
 [class*="lc4"] {
   -webkit-line-clamp: 4;
+}
+[class*="lc5"] {
+  -webkit-line-clamp: 5;
 }
 /* text wrap */
 [class*="tw1"] {
