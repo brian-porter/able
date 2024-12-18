@@ -6,7 +6,6 @@
 
 [sechead-size="t"] {
   font-size: var(--r4);
-  color: rgba(var(--n900), 1);
   min-height: 24px;
 }
 [sechead-size="t"] .subtxt {
@@ -16,7 +15,6 @@
 
 [sechead-size="xs"] {
   font-size: var(--r3);
-  color: rgba(var(--n900), 1);
   min-height: 32px;
 }
 [sechead-size="xs"] .subtxt {
@@ -26,7 +24,6 @@
 
 [sechead-size="s"] {
   font-size: var(--r2);
-  color: rgba(var(--n900), 1);
   padding-top: 16px;
 }
 [sechead-size="s"] .subtxt {
@@ -36,7 +33,6 @@
 
 [sechead-size="m"] {
   font-size: var(--r1);
-  color: rgba(var(--n900), 1);
 }
 [sechead-size="m"] .subtxt {
   font-size: var(--r4);
@@ -45,7 +41,6 @@
 
 [sechead-size="l"] {
   font-size: var(--h5);
-  color: rgba(var(--n900), 1);
   min-height: 44px;
 }
 [sechead-size="l"] .subtxt {
@@ -55,7 +50,6 @@
 
 [sechead-size="xl"] {
   font-size: var(--h4);
-  color: rgba(var(--n900), 1);
   padding-bottom: 32px;
 }
 [sechead-size="xl"] .subtxt {
@@ -65,7 +59,6 @@
 
 [sechead-size="h"] {
   font-size: var(--h3);
-  color: rgba(var(--n900), 1);
   min-height: 48px;
 }
 [sechead-size="h"] .subtxt {
