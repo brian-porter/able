@@ -22,7 +22,12 @@
   [bdg-size="m"] .icn {
     font-size: var(--r4);
   }
-  
+
+  [bdg-size="sm"] {
+    width: 10px;
+    height: 10px;
+  }
+
   [bdg-size="s"] {
     width: 6px;
     height: 6px;
