@@ -103,6 +103,21 @@
   height: 48px;
 }
 
+[obj-size="sm"] {
+  width: 40px;
+  height: 40px;
+}
+
+[obj-size="sm"] .icn {
+  font-size: var(--r2);
+}
+[group-size="sm"] .avatar,
+[group-size="sm"] .obj_wrap .img,
+[group-size="sm"] .adpt_wrapr {
+  width: 40px;
+  height: 40px;
+}
+
 [obj-size="s"] {
   width: 32px;
   height: 32px;
