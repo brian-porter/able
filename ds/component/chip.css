@@ -1,13 +1,25 @@
-[chip-style="pl"] {
+[chip-style="nl"] {
   background: rgba(var(--p000), 0.3);
   border-width: 1px;
   border-color: rgba(var(--n300), 1);
   color: rgba(var(--7500), 1);
 }
 
-[chip-style="pl"]:disabled {
+[chip-style="nl"]:disabled {
   border-color: rgba(var(--p100), 1);
   color: rgba(var(--p200), 1);
+  cursor: not-allowed;
+}
+[chip-style="nf"] {
+  background: rgba(var(--n300), 1);
+  border-width: 1px;
+  border-color: rgba(var(--n300), 1);
+  color: rgba(var(--n900), 1);
+}
+
+[chip-style="nf"]:disabled {
+  border-color: rgba(var(--n100), 1);
+  color: rgba(var(--n200), 1);
   cursor: not-allowed;
 }
 
