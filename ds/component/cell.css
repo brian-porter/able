@@ -1,4 +1,10 @@
 /* Cell Size Standards */
+[cell-size="5xl"] {
+	width: 300px;
+}
+[cell-size="4xl"] {
+	width: 200px;
+}
 [cell-size="3xl"] {
 	width: 156px;
 }
