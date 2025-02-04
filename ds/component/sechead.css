@@ -1,3 +1,8 @@
+/* Section Header padding shift for LIC component */
+[sechead="true"].lic-lead-icn {
+	padding-left: 0px;
+  padding-right: 8px;
+}
 /* Section Header Size */
 [sechead-size="in"] {
   font-size: inherit;
