@@ -47,5 +47,7 @@
 	margin-top: 8px;
 }
 [cell-card="true"] .cell-subject .icn {
-	margin: 20px;
+  margin-top: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
