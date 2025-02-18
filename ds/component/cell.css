@@ -27,6 +27,10 @@
 	width: 32px;
 }
 /* Padding and design changes when cell content is in Card format */
+.cell-wrap[cell-card="true"] {
+  margin-top: 8px;
+	margin-bottom: 8px;
+}
 [cell-card="true"] .cell-caption {
 	padding-left: 8px;
   padding-right: 8px;
@@ -41,4 +45,7 @@
 }
 [cell-card="true"] .cell-subject .avatar {
 	margin-top: 8px;
+}
+[cell-card="true"] .cell-subject .icn {
+	margin: 20px;
 }
