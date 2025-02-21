@@ -28,7 +28,7 @@
 
 [sechead-size="s"] {
   font-size: var(--r2);
-  padding-top: 16px;
+  padding-top: 0px;
 }
 [sechead-size="s"] .subtxt {
   font-size: var(--r4);
