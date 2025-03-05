@@ -314,6 +314,9 @@ html {
   --lh2: 1.3;
   --lh3: 1.1;
   --lh4: 1;
+  --lh5: 0.8;
+  --lh6: 0.7;
+  --lh7: 0.6;
   /* letter spacing */
   --ls0: inherit;
   --ls1: 0em;
@@ -378,6 +381,15 @@ html {
 [class*="lh4"] {
   line-height: var(--lh4);
 }
+[class*="lh5"] {
+  line-height: var(--lh5);
+}
+[class*="lh6"] {
+  line-height: var(--lh6);
+}
+[class*="lh7"] {
+  line-height: var(--lh7);
+}
 [class*="lh0"] {
   line-height: var(--lh0);
 }
@@ -439,72 +451,72 @@ html {
 [fs="h1"] {
   font-size: var(--h1);
   font-weight: var(--fw4);
-  line-height: var(--lh2);
+  line-height: var(--lh4);
 }
 [fs="h1b"] {
   font-size: var(--h1);
   font-weight: var(--fw7);
-  line-height: var(--lh2);
+  line-height: var(--lh4);
 }
 [fs="h2"] {
   font-size: var(--h2);
   font-weight: var(--fw4);
-  line-height: var(--lh2);
+  line-height: var(--lh4);
 }
 [fs="h2b"] {
   font-size: var(--h2);
   font-weight: var(--fw7);
-  line-height: var(--lh2);
+  line-height: var(--lh4);
 }
 [fs="h3"] {
   font-size: var(--h3);
   font-weight: var(--fw4);
-  line-height: var(--lh1);
+  line-height: var(--lh4);
 }
 [fs="h3b"] {
   font-size: var(--h3);
   font-weight: var(--fw7);
-  line-height: var(--lh1);
+  line-height: var(--lh4);
 }
 [fs="h4"] {
   font-size: var(--h4);
   font-weight: var(--fw4);
-  line-height: var(--lh1);
+  line-height: var(--lh4);
 }
 [fs="h4b"] {
   font-size: var(--h4);
   font-weight: var(--fw7);
-  line-height: var(--lh1);
+  line-height: var(--lh4);
 }
 [fs="h5"] {
   font-size: var(--h5);
   font-weight: var(--fw4);
-  line-height: var(--lh1);
+  line-height: var(--lh4);
 }
 [fs="h5b"] {
   font-size: var(--h5);
   font-weight: var(--fw7);
-  line-height: var(--lh1);
+  line-height: var(--lh3);
 }
 [fs="r1"] {
   font-size: var(--r1);
   font-weight: var(--fw4);
-  line-height: var(--lh1);
+  line-height: var(--lh2);
 }
 [fs="r1b"] {
   font-size: var(--r1);
   font-weight: var(--fw7);
-  line-height: var(--lh1);
+  line-height: var(--lh2);
 }
 [fs="r2"] {
   font-size: var(--r2);
   font-weight: var(--fw4);
-  line-height: var(--lh1);
+  line-height: var(--lh2);
 }
 [fs="r2b"] {
   font-size: var(--r2);
   font-weight: var(--fw7);
-  line-height: var(--lh1);
+  line-height: var(--lh2);
 }
 [fs="r3"] {
   font-size: var(--r3);
