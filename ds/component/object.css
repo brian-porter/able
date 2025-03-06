@@ -3,6 +3,14 @@
   position: absolute;
   top: 0%;
 }
+[obj-loc="top10"] {
+  position: absolute;
+  top: 10%;
+}
+[obj-loc="top25"] {
+  position: absolute;
+  top: 25%;
+}
 [obj-loc="tl"] {
   position: absolute;
   top: 0;
